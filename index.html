@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" id="top_of_site">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySync</title>
+    <link rel="icon" type="image/x-icon" href="./assests/mortarboard.svg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <div class="overflow-hidden-wrapper">
+        <!------------------------------ Navigation Section --------------------------------->
+        <nav class="navbar">
+            <a href="#" class="navbar_logo">
+                <img src="./assests/mortarboard.svg" alt="logo" id="logo">
+                <span>StudySync</span>
+            </a>
+            <div class="navitems">
+                <ul>
+                    <li><a href="#Home" class="navitems_links">Home</a></li>
+                    <li><a href="#feature_section" class="navitems_links">Services</a></li>
+                    <li><a href="#Products" class="navitems_links">Products</a></li>
+                    <li><a href="#testimonial_section" class="navitems_links">About</a></li>
+                    <li><a href="#Portfolio" class="navitems_links">Portfolio</a></li>
+                </ul>
+            </div>
+            <!-- <img src="assests/dark_mode_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" id="dark_icon"> -->
+            
+
+            <div class="hamburger">
+                <img src="assests/dark_mode_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" id="dark_icon">
+                <div class="navitems_buttons">
+                    <a href="login.html" class="navitems_contact_button_link"><button class="navitems_contact_button">Log
+                            In</button></a>
+                    <a href="#contact" class="navitems_contact_button_link"><button class="navitems_contact_button">Contact
+                            Us</button></a>
+                </div>
+                <div class="hamburger_dis">
+                    <svg width="32px" height="32px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 6H20M4 12H14M4 18H9" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+        <div class="sidebar">
+            <span class="close_btn"><svg width="32px" height="32px" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke-width="1.5"
+                        stroke-linecap="round" />
+                    <path
+                        d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7"
+                        stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
+                </svg></span>
+            <ul>
+                <li><a href="login.html"><button class="sidebar_contact_button">Login</button></a></li>
+                <li><a href="#Home" class="sidebar_links">Home</a></li>
+                <li><a href="#feature_section" class="sidebar_links">Services</a></li>
+                <li><a href="#Products" class="sidebar_links">Products</a></li>
+                <li><a href="#testimonial_section" class="sidebar_links">About</a></li>
+                <li><a href="#Portfolio" class="sidebar_links">Portfolio</a></li>
+                <li><a href="#Contact-us"><button class="sidebar_contact_button">Contact
+                            Us</button></a></li>
+            </ul>
+        </div>
+
+        <!----------------------------------- Hero Section ---------------------------------->
+        <main class="hero_container">
+            <div class="left_container">
+                <span class="hero_title">Very proud to introduce</span>
+                <h1 class="hero_heading">Seamless Learning <br> for Brighter Futures</h1>
+                <p class="hero_description">Our innovative platform offers an effortless and seamless approach to
+                    learning, empowering students of all ages to achieve brighter futures. Join us on a transformative
+                    journey to simplify education and unlock your full potential.</p>
+                <div class="button_container">
+                    <a href="#Start"><button class="start_button">Start Now</button></a>
+                    <a href="#Tour"><button class="tour_button">Take Tour</button></a>
+                </div>
+            </div>
+            <div class="right_container">
+                <img src="assests/image-1.jpg" alt="nature image" class="right_container_image">
+                <div class="right_container_text">
+                    <h2>Start Learning !</h2>
+                </div>
+            </div>
+        </main>
+
+        <!---------------------------------- Company Section -------------------------------->
+        <div class="trusted_container">
+            <h2 class="trusted_heading">Trusted by the best</h2>
+            <div class="company_container">
+                <div class="company_icon">
+                    <ion-icon name="logo-google"></ion-icon><span>Google</span>
+                </div>
+                <div class="company_icon">
+                    <ion-icon name="logo-microsoft"></ion-icon><span>Microsoft</span>
+                </div>
+                <div class="company_icon">
+                    <ion-icon name="logo-linkedin"></ion-icon><span>Linkedin</span>
+                </div>
+                <div class="company_icon">
+                    <ion-icon name="logo-facebook"></ion-icon><span>Facebook</span>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------------- Feature Section --------------------------------->
+        <div class="feature_section" id="feature_section">
+            <h1 class="feature_heading">Our competitive advantage</h1>
+            <p class="feature_description">This is a section of some simple filler text, also known as placeholder text.
+                It shares some characteristics of real written text but is random or otherwise generated.</p>
+            <div class="main_feature_cards_container">
+                <!------------------------------ Card 1 Container --------------------------->
+                <div class="feature_cards_container" id="personalized">
+                    <div class="feature_cards_icon">
+                        <img src="./assests/PersonalizedLearn.svg" alt="" class="feature_cards_icon_img">
+                    </div>
+                    <h4 class="cards_heading">Personalized Learning</h4>
+                    <p class="cards_description">Offer tailored learning experiences through Ai and machine learning to
+                        cater to individual student needs.</p>
+                </div>
+
+                <!----------------------------- Card 2 Container ---------------------------->
+                <div class="feature_cards_container" id="affordability">
+                    <div class="feature_cards_icon">
+                        <img src="./assests/Affordability.svg" alt="" class="feature_cards_icon_img">
+                    </div>
+                    <h4 class="cards_heading">Affordability</h4>
+                    <p class="cards_description">Provide high-quality education at an affordable price point, making it
+                        accessible to a broader audience.</p>
+                </div>
+
+                <!----------------------------- Card 3 Container ---------------------------->
+                <div class="feature_cards_container" id="industry">
+                    <div class="feature_cards_icon">
+                        <img src="./assests/IndustryPatner.svg" alt="" class="feature_cards_icon_img">
+                    </div>
+                    <h4 class="cards_heading">Industry Partnerships</h4>
+                    <p class="cards_description">Collaborate with well-known companies and institutions to offer
+                        accredited courses and certifications, adding credibility to your offerings.</p>
+                </div>
+
+                <!---------------------------- Card 4 Container ----------------------------->
+                <div class="feature_cards_container" id="innovative">
+                    <div class="feature_cards_icon">
+                        <img src="./assests/InnovativeTech.svg" alt="" class="feature_cards_icon_img">
+                    </div>
+                    <h4 class="cards_heading">Innovative Technology</h4>
+                    <p class="cards_description">Utilize cutting-edge technology, such as augmented reality or virtual
+                        reality, to create immersive learning experiences.</p>
+                </div>
+
+                <!---------------------------- Card 5 Container ----------------------------->
+                <div class="feature_cards_container" id="responsive">
+                    <div class="feature_cards_icon">
+                        <img src="./assests/call-outline.svg" alt="" class="feature_cards_icon_img">
+                    </div>
+                    <h4 class="cards_heading">Responsive Support</h4>
+                    <p class="cards_description">Provide exceptional customer support and assistance to students and
+                        educators.</p>
+                </div>
+
+                <!----------------------------- Card 6 Container ---------------------------->
+                <div class="feature_cards_container" id="analytics">
+                    <div class="feature_cards_icon">
+                        <img src="./assests/Analytics.svg" alt="" class="feature_cards_icon_img">
+                    </div>
+                    <h4 class="cards_heading">Analytics and Insights</h4>
+                    <p class="cards_description">Offer detailed progress tracking and analytics to help students and
+                        teachers monitor performance and make data-driven decisions.</p>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------ Testimonial Section -------------------------------->
+        <div class="testimonial_section" id="testimonial_section">
+            <h2 class="testimonial_heading">What Others Say About Us</h2>
+            <div class="testimonial_container">
+                <a href="" class="relative">
+                    <div class="review_section">
+                        <p>"StudySync revolutionized my classroom! Engaging content and resources make learning
+                            enjoyable.
+                            Highly recommended for educators."</p>
+                        <img src="./assests/avatar-1.jpg" alt="" class="reviewer_image">
+                        <span class="review_person_name">Sunny</span>
+                        <span class="review_person_qualification">Graduate B.E(CSE)</span>
+                    </div>
+                    <div class="py-2">New</div>
+                </a>
+                <div class="review_section">
+                    <p>"StudySync transformed our family's learning journey. Safe, interactive,and progress tracking
+                        features are invaluable for parents."</p>
+                    <img src="./assests/avatar-2.jpg" alt="" class="reviewer_image">
+                    <span class="review_person_name">Avinash</span>
+                    <span class="review_person_qualification">Graduate Unemployed</span>
+                </div>
+                <div class="review_section">
+                    <p>"StudySync, a true game-changer! Flexible content, tailored assessments, and excellent support.
+                        Integral to our school district's success."</p>
+                    <img src="./assests/avatar-3.jpg" alt="" class="reviewer_image">
+                    <span class="review_person_name">Mudit</span>
+                    <span class="review_person_qualification">Graduate B.E(CSE)</span>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------------- Products Section -------------------------------->
+        <div class="products_section_large">
+            <div class="product_card_large" id="product_1_card">
+                <a href="#nextjs">
+                    <div class="product_image">
+                        <img src="assests/nextjs.jpg" alt="nextjs">
+                    </div>
+                    <span class="products_heading">
+                        Next.JS Full Course 2024 |<br>
+                        Build a Real Full Stack App
+                    </span>
+                    <div class="amount_container">
+                        <span class="_1fxa">₹3499</span>
+                        <span class="_1fxb">₹7000</span>
+                        <span class="_1fxc">50% off</span>
+                    </div>
+                </a>
+            </div>
+            <div class="product_card_large" id="product_2_card">
+                <a href="#reactjs">
+                    <div class="product_image">
+                        <img src="assests/react.jpg" alt="nextjs">
+                    </div>
+                    <span class="products_heading">
+                        React.JS Full Course 2024 |<br>
+                        Build a Real Project
+                    </span>
+                    <div class="amount_container">
+                        <span class="_1fxa">₹3499</span>
+                        <span class="_1fxb">₹6999</span>
+                        <span class="_1fxc">50% off</span>
+                    </div>
+                </a>
+            </div>
+            <div class="product_card_large" id="product_3_card">
+                <a href="#nodejs">
+                    <div class="product_image">
+                        <img src="assests/nodejs.jpg" alt="nextjs">
+                    </div>
+                    <span class="products_heading">
+                        The Complete Node.JS | Developer course
+                    </span>
+                    <div class="amount_container">
+                        <span class="_1fxa">₹3199</span>
+                        <span class="_1fxb">₹8000</span>
+                        <span class="_1fxc">60% off</span>
+                    </div>
+                </a>
+            </div>
+            <div class="product_card_large" id="product_last_card">
+                <a href="#sql">
+                    <div class="product_image">
+                        <img src="assests/sql.png" alt="nextjs">
+                    </div>
+                    <span class="products_heading">
+                        SQL Full Course 2024 |<br>
+                        Learn in 26 Hours
+                    </span>
+                    <div class="amount_container">
+                        <span class="_1fxa">₹2199</span>
+                        <span class="_1fxb">₹4800</span>
+                        <span class="_1fxc">57% off</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="product_card_small_container">
+            <div class="products_section_small">
+                <div class="product_card_small">
+                    <a href="#nextjs">
+                        <div class="product_image">
+                            <img src="assests/nextjs.jpg" alt="nextjs">
+                        </div>
+                        <span class="products_heading">
+                            Next.JS Full Course 2024 |<br>
+                            Build a Real Full Stack App
+                        </span>
+                        <div class="amount_container">
+                            <span class="_1fxa">₹3499</span>
+                            <span class="_1fxb">₹7000</span>
+                            <span class="_1fxc">50% off</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="product_card_small">
+                    <a href="#reactjs">
+                        <div class="product_image">
+                            <img src="assests/react.jpg" alt="nextjs">
+                        </div>
+                        <span class="products_heading">
+                            React.JS Full Course 2024 |<br>
+                            Build a Real Project
+                        </span>
+                        <div class="amount_container">
+                            <span class="_1fxa">₹3499</span>
+                            <span class="_1fxb">₹6999</span>
+                            <span class="_1fxc">50% off</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="product_card_small">
+                    <a href="#nodejs">
+                        <div class="product_image">
+                            <img src="assests/nodejs.jpg" alt="nextjs">
+                        </div>
+                        <span class="products_heading">
+                            The Complete Node.JS | Developer Course
+                        </span>
+                        <div class="amount_container">
+                            <span class="_1fxa">₹3199</span>
+                            <span class="_1fxb">₹8000</span>
+                            <span class="_1fxc">60% off</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="product_card_small">
+                    <a href="#sql">
+                        <div class="product_image">
+                            <img src="assests/sql.png" alt="nextjs">
+                        </div>
+                        <span class="products_heading">
+                            SQL Full Course 2024 |<br>
+                            Learn in 26 Hours
+                        </span>
+                        <div class="amount_container">
+                            <span class="_1fxa">₹2199</span>
+                            <span class="_1fxb">₹4800</span>
+                            <span class="_1fxc">57% off</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------- NewsLetter Section -------------------------------->
+        <div class="newsletter_section">
+            <div class="newsletter_content">
+                <!-- left part -->
+                <div class="newsletter_left">
+                    <img src="./assests/img.png" alt="Newsletter Image" class="newsletter_image" loading="lazy">
+                </div>
+                <!-- right part -->
+                <div class="newsletter_right">
+                    <div class="newsletter_info">
+                        <h2 class="newsletter_heading">Get the latest updates</h2>
+                        <span class="newsletter_description">Sign up for our newsletter</span>
+                    </div>
+                    <form class="newsletter_email_container">
+                        <input type="email" name="email" class="email_container" placeholder="Email" required>
+                        <input type="Submit" value="Subscribe" class="submit_button">
+                        <label class="custom_checkbox">
+                            <input type="checkbox" id="myCheckbox" required>
+                            <span class="checkmark"></span>
+                            <span class="signing_span">By signing up to our newsletter you agree to our
+                                <a href="#terms">Term of Service</a>
+                                and
+                                <a href="#privacy">Privacy Policy</a>
+                            </span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------- Footer Section --------------------------------->
+        <div class="footer_section">
+            <div class="footor_left">
+                <div class="footor_logo">
+                    <a href="#"><img src="./assests/mortarboard.svg" alt="footor logo">
+                        <span>StudySync</span></a>
+                </div>
+                <span class="footor_desc">
+                    Seamless Learning For Brighter Futures.
+                </span>
+                <div class="social_links">
+                    <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href=""><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+            </div>
+            <div class="footor_right">
+                <div class="links_section">
+                    <span>Products</span>
+                    <a href="#overview">Overview</a>
+                    <a href="#solutions">Solutions</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#customers">Customers</a>
+                </div>
+                <div class="links_section">
+                    <span>Company</span>
+                    <a href="#about">About</a>
+                    <a href="#invest">Investor Relations</a>
+                    <a href="#jobs">Jobs</a>
+                    <a href="#press">Press</a>
+                    <a href="#blog">Blog</a>
+                </div>
+                <div class="links_section">
+                    <span>Support</span>
+                    <a href="#contact">Contact</a>
+                    <a href="#Documentation">Documentation</a>
+                    <a href="#Chat">Chat</a>
+                    <a href="#FAQ">FAQ</a>
+                </div>
+                <div class="links_section">
+                    <span>Legal</span>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#cookie">Cookie Settings</a>
+                </div>
+            </div>
+        </div>
+        <hr width="100%" size="2">
+        <div class="copyright_section">
+            <span>&copy; 2024 StudySync - Rishabh &emsp; | &emsp; All rights reserved.</span>
+        </div>
+
+        <!--------------------------------- Login/Signup Section ---------------------------->
+        <div class="action_section">
+            <div class="action_details">
+                <span>Join the leading educational community and receive tailored study resources just for you.</span>
+                <div class="action_buttons">
+                    <a href="login.html"><button class="action_login">Log In</button></a>
+                    <a href="register.html"><button class="action_join">Join</button></a>
+                </div>
+                <span class="or_container">or</span>
+                <div class="action_icon_container">
+                    <div class="action_icon">
+                        <a href="#google"><img src="./assests/google-color-svgrepo-com.svg" alt="google"></a>
+                    </div>
+                    <div class="action_icon">
+                        <a href="#twitter"><img src="./assests/icons8-twitter.svg" alt="twitter"></a>
+                    </div>
+                    <div class="action_icon">
+                        <a href="#facebook"><img src="./assests/facebook-svgrepo-com.svg" alt="facebook"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#top_of_site" class="top_of_site_link" data-visible="true">
+            <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#000000"><path d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"/></svg>
+        </a>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
