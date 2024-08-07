@@ -16,6 +16,7 @@ body {
     --primary-color: #FFA500;
     --default-color: #fff;
     --accent-color: rgb(236, 236, 236);
+    --accent-color2: rgb(236, 236, 236);
     --text-color: rgb(54, 51, 51);
     --text-color2: rgb(0, 0, 0);
     --checkbox-color: rgb(200, 182, 182);
@@ -27,6 +28,7 @@ body {
     --primary-color: #FFA500;
     --default-color: rgb(24, 26, 27);
     --accent-color: rgb(30, 32, 33);
+    --accent-color2:rgb(255, 255, 255);
     --text-color: rgb(200, 196, 189);
     --text-color2: rgb(255, 255, 255);
     --checkbox-color: rgb(59, 59, 59);
@@ -1007,7 +1009,7 @@ html {
 }
 
 .top_of_site_link svg {
-    background-color: var(--accent-color);
+    background-color: var(--accent-color2);
     border-radius: 50%;
     border: none;
 }
