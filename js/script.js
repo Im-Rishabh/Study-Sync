@@ -1,5 +1,4 @@
 //------------------------------------- Sidebar Script -------------------------------------//
-
 document.addEventListener('DOMContentLoaded', function () {
     const hamburger = document.querySelector('.hamburger_dis');
     const sidebar = document.querySelector('.sidebar');
@@ -24,11 +23,26 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+//------------------------------------------ Dark Mode ---------------------------------------//
 let icon = document.getElementById("dark_icon");
 icon.onclick = function() {
     document.body.classList.toggle("dark-theme");
-    if (document.body.classList.contains("dark-theme"))
+    if (document.body.classList.contains("dark-theme")) {
         icon.src = "assests/light_mode_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg";
-    else
-    icon.src = "assests/dark_mode_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg";
+        theme = "DARK";
+    }
+    else {
+        icon.src = "assests/dark_mode_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg";
+        theme = "LIGHT";
+    }
+
+    // Save To Local Storage
+    localStorage.setItem("PageTheme", JSON.stringify(theme));
+};
+
+let getTheme = JSON.parse(localStorage.getItem("PageTheme"));
+
+if (getTheme === "DARK") {
+    document.body.classList = "dark-theme";
+    icon.src = "assests/light_mode_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg";
 };
